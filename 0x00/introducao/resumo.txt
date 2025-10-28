@@ -1,0 +1,13 @@
+Microsserviços
+Uma decisão de arquitetura, onde divide o projeto de software em varias aplicações pequenas por funcionalidades, tornando-as em unidades independentes, buscando implantações, integrações e testes mais fácies e menor risco de interrupção total do sistema.
+Visão geral da arquitetura Monolítica e de Microsserviços
+Arquitetura Monolítica:
+Todo o sistema é construído como um único aplicativo — todos os módulos (usuários, pedidos, pagamentos etc.) compartilham o mesmo código, banco de dados e deploy.
+Microsserviço:
+O sistema é dividido em vários serviços independentes, cada um responsável por uma função específica
+Os benefícios da arquitetura de microsserviços	
+	Implantações, integrações e testes mais fácies
+	Gestão de times de desenvolvimento menores e autônomos
+	Escalabilidade
+
+Os microsserviços utilizam comunicação por HTTP; comunicação por Mensagens e comunicação orientada a eventos
